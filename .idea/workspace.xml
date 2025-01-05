@@ -30,7 +30,11 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.Fibonacci.executor": "Run",
+    "Python.factorial.executor": "Run",
+    "Python.max&minEleList.executor": "Run",
     "Python.primeOrNot.executor": "Run",
+    "Python.sumOfEleList.executor": "Run",
     "Python.swaptoNumber.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "<unknown>",
