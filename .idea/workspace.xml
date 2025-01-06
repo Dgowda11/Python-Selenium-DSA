@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c5562089-1dcb-4442-aef7-768e545dffb0" name="Changes" comment="" />
+    <list default="true" id="c5562089-1dcb-4442-aef7-768e545dffb0" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonHandsons/Basics/SwapFirst&amp;LastInList.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonHandsons/Basics/SwapFirst&amp;LastInList.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,6 +27,9 @@
   &quot;associatedIndex&quot;: 8
 }</component>
   <component name="ProjectId" id="2qi0MDj0wYiOJj3EiqrwqD94IGn" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -31,13 +37,17 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python.Fibonacci.executor": "Run",
+    "Python.SwapFirst&LastInList.executor": "Run",
     "Python.factorial.executor": "Run",
     "Python.max&minEleList.executor": "Run",
     "Python.primeOrNot.executor": "Run",
+    "Python.removeNthOccurance.executor": "Run",
+    "Python.searchforElementinList.executor": "Run",
     "Python.sumOfEleList.executor": "Run",
     "Python.swaptoNumber.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "<unknown>",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
     "last_opened_file_path": "C:/Users/Darshan Gowda/PycharmProjects/PythonProject1"
   }
 }]]></component>
