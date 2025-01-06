@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c5562089-1dcb-4442-aef7-768e545dffb0" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonHandsons/Basics/SwapFirst&amp;LastInList.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonHandsons/Basics/SwapFirst&amp;LastInList.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonHandsons/Basics/max&amp;minEleList.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonHandsons/Basics/max&amp;minEleList.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,13 +36,21 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.CheckPlaindrome.executor": "Run",
     "Python.Fibonacci.executor": "Run",
+    "Python.SumofAllEleList.executor": "Run",
     "Python.SwapFirst&LastInList.executor": "Run",
+    "Python.cloneOrCopyList.executor": "Run",
     "Python.factorial.executor": "Run",
+    "Python.findLengthofString.executor": "Run",
     "Python.max&minEleList.executor": "Run",
+    "Python.occuranceofEleinList.executor": "Run",
     "Python.primeOrNot.executor": "Run",
     "Python.removeNthOccurance.executor": "Run",
+    "Python.reverseList.executor": "Run",
+    "Python.reverseWordsinSentence.executor": "Run",
     "Python.searchforElementinList.executor": "Run",
+    "Python.substringinString.executor": "Run",
     "Python.sumOfEleList.executor": "Run",
     "Python.swaptoNumber.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
