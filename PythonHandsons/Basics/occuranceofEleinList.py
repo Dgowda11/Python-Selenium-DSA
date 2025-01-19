@@ -1,6 +1,6 @@
 
 lst = [2,4,6,2,2,12,4,16,5]
-count = lst.count(2)
+# count = lst.count(2)
 repeated_Elements = []
 count = 0
 

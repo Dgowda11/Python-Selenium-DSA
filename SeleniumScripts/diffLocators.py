@@ -8,7 +8,6 @@ driver.get("https://rahulshettyacademy.com/angularpractice/")
 driver.maximize_window()
 print("Title",driver.title,"URL", driver.current_url)
 
-
 driver.find_element(By.CSS_SELECTOR,"input[name='name']").send_keys("Darshan")
 driver.find_element(By.NAME,'email').send_keys("Darshan@gmail.com")
 driver.find_element(By.ID,"exampleInputPassword1").send_keys("Qwerty@123")
@@ -24,4 +23,5 @@ print(message)
 assert "Success" in message
 driver.find_element(By.XPATH,"(//input[@type='text'])[3]").send_keys("DarshanGowda")
 driver.find_element(By.XPATH,"(//input[@type='text'])[3]").clear()
+
 time.sleep(2)
