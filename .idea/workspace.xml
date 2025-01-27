@@ -6,10 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c5562089-1dcb-4442-aef7-768e545dffb0" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonHandsons/Basics/findSecondLargestList.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonHandsons/Basics/findSecondLargestList.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonHandsons/Basics/occuranceofEleinList.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonHandsons/Basics/occuranceofEleinList.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SeleniumScripts/diffLocators.py" beforeDir="false" afterPath="$PROJECT_DIR$/SeleniumScripts/diffLocators.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SeleniumScripts/javascriptexe/scroll.py" beforeDir="false" afterPath="$PROJECT_DIR$/SeleniumScripts/javascriptexe/scroll.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonHandsons/demo.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,75 +34,78 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.AccessListitems.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Alerts.executor&quot;: &quot;Run&quot;,
-    &quot;Python.AssigningMultiplevalues.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ChangeItems.executor&quot;: &quot;Run&quot;,
-    &quot;Python.CheckPlaindrome.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Fibonacci.executor&quot;: &quot;Run&quot;,
-    &quot;Python.InterchangeFirstandLastElement.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Listcomphresions.executor&quot;: &quot;Run&quot;,
-    &quot;Python.MultiLevelInherit.executor&quot;: &quot;Run&quot;,
-    &quot;Python.MultilevelInheritance.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Sample.executor&quot;: &quot;Run&quot;,
-    &quot;Python.SingleInherit.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Slicing.executor&quot;: &quot;Run&quot;,
-    &quot;Python.SumofAllEleList.executor&quot;: &quot;Run&quot;,
-    &quot;Python.SwapFirst&amp;LastInList.executor&quot;: &quot;Run&quot;,
-    &quot;Python.UnpackingCollections.executor&quot;: &quot;Run&quot;,
-    &quot;Python.additems.executor&quot;: &quot;Run&quot;,
-    &quot;Python.builtinclassfunctions.executor&quot;: &quot;Run&quot;,
-    &quot;Python.checkPalindrome.executor&quot;: &quot;Run&quot;,
-    &quot;Python.checkSubstring.executor&quot;: &quot;Run&quot;,
-    &quot;Python.class&amp;Instancevariables.executor&quot;: &quot;Run&quot;,
-    &quot;Python.class&amp;Objects.executor&quot;: &quot;Run&quot;,
-    &quot;Python.cloneOrCopyList.executor&quot;: &quot;Run&quot;,
-    &quot;Python.copyList.executor&quot;: &quot;Run&quot;,
-    &quot;Python.demo (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.demo (2).executor&quot;: &quot;Run&quot;,
-    &quot;Python.demo.executor&quot;: &quot;Run&quot;,
-    &quot;Python.dictComprehension.executor&quot;: &quot;Run&quot;,
-    &quot;Python.factorial.executor&quot;: &quot;Run&quot;,
-    &quot;Python.filterFunction.executor&quot;: &quot;Run&quot;,
-    &quot;Python.findLengthofString.executor&quot;: &quot;Run&quot;,
-    &quot;Python.findSecondLargestList.executor&quot;: &quot;Run&quot;,
-    &quot;Python.formatStrings.executor&quot;: &quot;Run&quot;,
-    &quot;Python.globalvariables.executor&quot;: &quot;Run&quot;,
-    &quot;Python.joinLists.executor&quot;: &quot;Run&quot;,
-    &quot;Python.listcomprehensions.executor&quot;: &quot;Run&quot;,
-    &quot;Python.looplist.executor&quot;: &quot;Run&quot;,
-    &quot;Python.max&amp;minEleList.executor&quot;: &quot;Run&quot;,
-    &quot;Python.membershipoperators.executor&quot;: &quot;Run&quot;,
-    &quot;Python.modifyStrings.executor&quot;: &quot;Run&quot;,
-    &quot;Python.multipleLineStrings.executor&quot;: &quot;Run&quot;,
-    &quot;Python.occuranceofEleinList.executor&quot;: &quot;Run&quot;,
-    &quot;Python.primeOrNot.executor&quot;: &quot;Run&quot;,
-    &quot;Python.removeNthOccurance.executor&quot;: &quot;Run&quot;,
-    &quot;Python.reomoveletter.executor&quot;: &quot;Run&quot;,
-    &quot;Python.reverseList.executor&quot;: &quot;Run&quot;,
-    &quot;Python.reverseWordsinSentence.executor&quot;: &quot;Run&quot;,
-    &quot;Python.reversethewords.executor&quot;: &quot;Run&quot;,
-    &quot;Python.searchforElementinList.executor&quot;: &quot;Run&quot;,
-    &quot;Python.sortLists.executor&quot;: &quot;Run&quot;,
-    &quot;Python.substringinString.executor&quot;: &quot;Run&quot;,
-    &quot;Python.sumOfEleList.executor&quot;: &quot;Run&quot;,
-    &quot;Python.swapTwoElements.executor&quot;: &quot;Run&quot;,
-    &quot;Python.swaptoNumber.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Darshan Gowda/PycharmProjects/PythonProject1&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.AccessListitems.executor": "Run",
+    "Python.Alerts.executor": "Run",
+    "Python.AssigningMultiplevalues.executor": "Run",
+    "Python.ChangeItems.executor": "Run",
+    "Python.CheckPlaindrome.executor": "Run",
+    "Python.Fibonacci.executor": "Run",
+    "Python.InterchangeFirstandLastElement.executor": "Run",
+    "Python.LinkedListConstuctor.executor": "Run",
+    "Python.Listcomphresions.executor": "Run",
+    "Python.MultiLevelInherit.executor": "Run",
+    "Python.MultilevelInheritance.executor": "Run",
+    "Python.Sample.executor": "Run",
+    "Python.SingleInherit.executor": "Run",
+    "Python.Slicing.executor": "Run",
+    "Python.SumofAllEleList.executor": "Run",
+    "Python.SwapFirst&LastInList.executor": "Run",
+    "Python.UnpackingCollections.executor": "Run",
+    "Python.additems.executor": "Run",
+    "Python.builtinclassfunctions.executor": "Run",
+    "Python.checkPalindrome.executor": "Run",
+    "Python.checkSubstring.executor": "Run",
+    "Python.class&Instancevariables.executor": "Run",
+    "Python.class&Objects.executor": "Run",
+    "Python.cloneOrCopyList.executor": "Run",
+    "Python.copyList.executor": "Run",
+    "Python.demo (1).executor": "Run",
+    "Python.demo (2).executor": "Run",
+    "Python.demo.executor": "Run",
+    "Python.dictComprehension.executor": "Run",
+    "Python.factorial.executor": "Run",
+    "Python.filterFunction.executor": "Run",
+    "Python.findLengthofString.executor": "Run",
+    "Python.findSecondLargestList.executor": "Run",
+    "Python.formatStrings.executor": "Run",
+    "Python.globalvariables.executor": "Run",
+    "Python.joinLists.executor": "Run",
+    "Python.listcomprehensions.executor": "Run",
+    "Python.looplist.executor": "Run",
+    "Python.max&minEleList.executor": "Run",
+    "Python.membershipoperators.executor": "Run",
+    "Python.modifyStrings.executor": "Run",
+    "Python.monthlyExpense.executor": "Run",
+    "Python.multipleLineStrings.executor": "Run",
+    "Python.occuranceofEleinList.executor": "Run",
+    "Python.pointers.executor": "Run",
+    "Python.primeOrNot.executor": "Run",
+    "Python.removeNthOccurance.executor": "Run",
+    "Python.reomoveletter.executor": "Run",
+    "Python.reverseList.executor": "Run",
+    "Python.reverseWordsinSentence.executor": "Run",
+    "Python.reversethewords.executor": "Run",
+    "Python.searchforElementinList.executor": "Run",
+    "Python.sortLists.executor": "Run",
+    "Python.substringinString.executor": "Run",
+    "Python.sumOfEleList.executor": "Run",
+    "Python.swapTwoElements.executor": "Run",
+    "Python.swaptoNumber.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/Darshan Gowda/PycharmProjects/PythonProject1"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Darshan Gowda\PycharmProjects\PythonProject1\PythonHandsons" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.reomoveletter">
-    <configuration name="Alerts" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.LinkedListConstuctor">
+    <configuration name="LinkedList" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonProject1" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -114,55 +114,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SeleniumScripts" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PythonHandsons/DataStructures/LinkedList" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SeleniumScripts/Alerts.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="demo (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PythonProject1" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/demo.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="demo (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PythonProject1" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PythonHandsons" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PythonHandsons/demo.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\Darshan Gowda\PycharmProjects\PythonProject1\PythonHandsons\DataStructures\LinkedList\LinkedList.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -185,6 +141,50 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PythonHandsons/Basics/demo.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="monthlyExpense" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PythonProject1" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PythonHandsons/DataStructures/Array" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PythonHandsons/DataStructures/Array/monthlyExpense.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pointers" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PythonProject1" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PythonHandsons/DataStructures/pointers" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PythonHandsons/DataStructures/pointers/pointers.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -217,11 +217,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.LinkedListConstuctor" />
+        <item itemvalue="Python.pointers" />
+        <item itemvalue="Python.monthlyExpense" />
         <item itemvalue="Python.reomoveletter" />
         <item itemvalue="Python.demo" />
-        <item itemvalue="Python.demo (2)" />
-        <item itemvalue="Python.demo (1)" />
-        <item itemvalue="Python.Alerts" />
       </list>
     </recent_temporary>
   </component>
