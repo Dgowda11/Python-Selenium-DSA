@@ -87,7 +87,7 @@ class LinkedList:
         return False
 
     def insert_value(self,index,value):
-        if index < 0 or index >= self.length:
+        if index < 0 or index > self.length:
             return False
         if index == 0:
             return self.prepend(value)
@@ -99,6 +99,32 @@ class LinkedList:
         temp.next = new_node
         self.length += 1
         return True
+
+    def remove(self,index):
+        if index < 0 or index >= self.length:
+            return None
+        if index == 0:
+            return self.pop_first()
+        if index == self.length -1:
+            return self.pop()
+        prev = self.get(index -1)
+        temp = prev.next
+        prev.next = temp.next
+        temp.next = None
+        self.length -= 1
+        return temp
+
+    def reverse(self):
+        temp = self.head
+        self.head = self.tail
+        self.tail = temp
+        after = temp.next
+        before = None
+        for _ in range(self.length):
+            after = temp.next
+            temp.next = before
+            before = temp
+            temp = after
 
 
 my_linked_list = LinkedList(4)
@@ -131,4 +157,13 @@ my_linked_list.print_List()
 
 print("-- Insert Value method start here")
 my_linked_list.insert_value(1,9)
+my_linked_list.print_List()
+
+
+print("-- Remove method start here")
+my_linked_list.remove(1)
+my_linked_list.print_List()
+
+print("-- Reverse method start here")
+my_linked_list.reverse()
 my_linked_list.print_List()

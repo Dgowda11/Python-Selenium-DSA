@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c5562089-1dcb-4442-aef7-768e545dffb0" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/PythonHandsons/DataStructures/Array/monthlyExpense.py" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures&amp;Algorithms/DataStructures/Array/monthlyExpense.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonHandsons/DataStructures/LinkedList/LinkedList.py" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures&amp;Algorithms/DataStructures/LinkedList/LinkedList.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonHandsons/DataStructures/pointers/pointers.py" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures&amp;Algorithms/DataStructures/pointers/pointers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA/DataStructures/LinkedList/LinkedList.py" beforeDir="false" afterPath="$PROJECT_DIR$/DSA/DataStructures/LinkedList/LinkedList.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PythonHandsons/demo.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,6 +44,7 @@
     "Python.CheckPlaindrome.executor": "Run",
     "Python.Fibonacci.executor": "Run",
     "Python.InterchangeFirstandLastElement.executor": "Run",
+    "Python.LinkedList (1).executor": "Run",
     "Python.LinkedListConstuctor.executor": "Run",
     "Python.Listcomphresions.executor": "Run",
     "Python.MultiLevelInherit.executor": "Run",
@@ -103,11 +103,12 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Darshan Gowda\PycharmProjects\PythonProject1\DataStructures&amp;Algorithms" />
       <recent name="C:\Users\Darshan Gowda\PycharmProjects\PythonProject1\PythonHandsons" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.LinkedListConstuctor">
-    <configuration name="LinkedList" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.LinkedList (1)">
+    <configuration name="LinkedList (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonProject1" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -116,11 +117,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PythonHandsons/DataStructures/LinkedList" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DSA/DataStructures/LinkedList" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\Darshan Gowda\PycharmProjects\PythonProject1\PythonHandsons\DataStructures\LinkedList\LinkedList.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DSA/DataStructures/LinkedList/LinkedList.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -219,11 +220,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.LinkedListConstuctor" />
+        <item itemvalue="Python.LinkedList (1)" />
+        <item itemvalue="Python.demo" />
         <item itemvalue="Python.pointers" />
         <item itemvalue="Python.monthlyExpense" />
         <item itemvalue="Python.reomoveletter" />
-        <item itemvalue="Python.demo" />
       </list>
     </recent_temporary>
   </component>
