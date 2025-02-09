@@ -19,7 +19,7 @@ class LinkedList:
             print(temp.value)
             temp = temp.next
 
-    # Write a method to append the element into the LinkedList
+    # Write a method to append the element into the SinglyLinkedList
     def append(self,value):
         new_node = Node(value)
         if self.head is None:

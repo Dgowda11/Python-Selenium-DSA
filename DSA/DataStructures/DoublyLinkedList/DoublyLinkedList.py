@@ -1,3 +1,6 @@
+from pytestDemo.test_demo1 import test_first_program
+
+
 class Node:
     def __init__(self,value):
         self.value = value
@@ -82,6 +85,48 @@ class DoublyLinkedList:
                 temp = temp.prev
         return temp
 
+    def set_value(self,index,value):
+        temp = self.get(index)
+        if temp:
+            temp.value = value
+            return True
+        return False
+
+    def insert(self,index,value):
+        if index < 0 or index > self.length:
+            return False
+        if index == 0:
+            return self.prepend(value)
+        if index == self.length:
+            return self.append(value)
+        new_node = Node(value)
+        before = self.get(index -1)
+        after  = before.next
+
+        new_node.prev = before
+        new_node.next = after
+        before.next = new_node
+        after.prev = new_node
+
+        self.length += 1
+        return True
+
+    def remove(self,index):
+        if index < 0 or index >= self.length:
+            return None
+        if index == 0:
+            return self.pop_first()
+        if index == self.length -1 :
+            return self.pop()
+
+        temp = self.get(index)
+        temp.next.prev = temp.prev
+        temp.prev.next = temp.next
+        temp.next = None
+        temp.prev = None
+        self.length -= 1
+        return temp
+
 
 mydoubleLinkedList = DoublyLinkedList(7)
 print("Appending Doubly Linkedlist start here")
@@ -103,3 +148,15 @@ mydoubleLinkedList.printList()
 
 print("Get index value Starts here")
 print(mydoubleLinkedList.get(0).value)
+
+print("Set value starts here")
+mydoubleLinkedList.set_value(0,9)
+print((mydoubleLinkedList.printList()))
+
+print("Insert value starts here")
+mydoubleLinkedList.insert(1,7)
+print((mydoubleLinkedList.printList()))
+
+print("Remove value starts here")
+mydoubleLinkedList.remove(1)
+print((mydoubleLinkedList.printList()))

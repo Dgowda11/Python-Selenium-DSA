@@ -17,11 +17,10 @@ s = 'Hello Myself Darshan'
 #         print("Found")
 #     else:
 #         print("Not FOund")
-# s2 = 'Hello Myself Darshan'
-# s1 = 'Darshan'
-# check(s2,s1)
-
-
-# Using List Comphre
 s2 = 'Hello Myself Darshan'
+s1 = 'Darshan'
+
+# Using List Comphreshan'
 print(["YES" if "Darshan" in s2 else "NO"])
+
+# Using Count Method
