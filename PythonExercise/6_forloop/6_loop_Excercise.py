@@ -1,0 +1,73 @@
+# After flipping a coin 10 times you got this result,
+# result = ["heads","tails","tails","heads","tails","heads","heads","tails","tails","tails"]
+# Using for loop figure out how many times you got heads
+
+result = ["heads","tails","tails","heads","tails","heads","heads","tails","tails","tails"]
+count = 0
+for toss in result:
+    if toss == "heads":
+        count += 1 
+print("Number of times the heads came was:", count)
+
+#2 Print square of all numbers between 1 to 10 except even numbers
+for i in range(1,11):
+    if i%2!= 0:
+        print(f"The square root {i} is:{i*i}")
+    else:
+        print(f"{i} is an Even number")
+        continue
+        
+
+# 3 Your monthly expense list (from Jan to May) looks like this,
+# expense_list = [2340, 2500, 2100, 3100, 2980]
+# Write a program that asks you to enter an expense amount 
+# and program should tell you in which month that expense occurred. 
+# If expense is not found then it should print that as well.
+expense_list = [2340, 2500, 2100, 3100, 2980]
+month_list = ["January", "February", "March", "April", "May"]
+month = -1
+exp = int(input("Enter the expense amount: "))
+for i in range(len(expense_list)):
+    if expense_list[i] == exp:
+        month = i 
+        break
+
+if month != -1:
+    print(f"you spend {exp} in the month of {month_list[month]}")
+else:
+    print(f'You didn\'t spend {exp} in any month')
+
+
+# Enumerate function -- It can be used to get both index & value of the iterables 
+# Wheras in case of range() -- we can get only the index & we need to fetch the values using itr[i] - while Emuerate bypass this
+
+
+# 4. Lets say you are running a 5 km race. Write a program that,
+#    1. Upon completing each 1 km asks you "are you tired?"
+#    2. If you reply "yes" then it should break and print "you didn't finish the race"
+#    3. If you reply "no" then it should continue and ask "are you tired" on every km
+#    4. If you finish all 5 km then it should print congratulations message
+
+for km in range(1, 5):   # only 1–4 km
+    usrInput = input(f"After {km} km, are you tired? ").lower()
+
+    if usrInput == "yes":
+        print(f"You didn't finish the race, stopped at {km} km")
+        break
+else:
+    print("Congrats you finished the race")
+
+
+#5 Write a program that prints following shape
+# *
+# **
+# ***
+# ****
+# *****
+
+for i in range(6):
+    s = ''
+    for j in range(i):
+        s += '*'
+    print(s)
+
