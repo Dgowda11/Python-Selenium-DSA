@@ -17,3 +17,4 @@ print(captions)
 # Delete the key and value
 del captions['England']
 print(captions)
+#Iterate through dictionary 
